@@ -3,7 +3,8 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section id="hero" className="hero">    
+    <section id="hero" className="hero"> 
+        
       <div className="overlay fade-in">
         <h1 className="hero-title">Adrielle Alves</h1>
         <p className="hero-subtitle">Psicóloga Clínica</p>
