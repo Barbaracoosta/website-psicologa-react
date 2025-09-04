@@ -2,13 +2,11 @@ import "./Benefits.css";
 
 function Benefits() {
   return (
-    <section id="benefits" className="benefits">
+    <section id="benefits" className="benefits">      
       
-      {/* Título principal */}
       <h1>Como funciona?</h1>
-      <h3>O processo acontece em 4 etapas:</h3>
-
-      {/* Cards das etapas */}
+      <h2>O processo acontece em 4 etapas:</h2>
+      
       <div className="benefit-cards">
         <div className="card">
           <h3>Avaliação inicial</h3>  
@@ -20,22 +18,44 @@ function Benefits() {
         </div>
         <div className="card">
           <h3>Definição de objetivos</h3>
+          <p>
+            Definiremos juntos metas claras e realistas para o seu desenvolvimento. 
+            Essa etapa garante que cada sessão tenha um propósito, alinhado às suas necessidades e expectativas.
+          </p>
         </div>
         <div className="card">
           <h3>Aplicação de técnicas</h3>
+          <p>
+            Aqui utilizamos estratégias da ABA e TCC, adaptadas ao seu perfil. 
+            São exercícios práticos, discussões e intervenções que ajudam a melhorar comportamentos, habilidades sociais e emocionais.
+          </p>
         </div>
         <div className="card">
           <h3>Conquista de autonomia</h3>
+          <p>
+            O objetivo final é que você desenvolva ferramentas e estratégias para lidar de forma independente com suas emoções e desafios. 
+            A autonomia permite maior confiança e qualidade de vida no dia a dia.
+          </p>
         </div>
       </div>
 
-      {/* Benefícios */}
-      <h3>Abordagens e Benefícios</h3>
+      <h2>Abordagens utilizadas</h2>
       <p>
-        Acompanhamento psicológico em ABA e TCC para crianças e jovens adultos.
+        Cada atendimento é personalizado, combinando diferentes abordagens para atender às necessidades do paciente:
       </p>
+      
+      <div className="benefit-cards">
+        <div className="card">🧠 Terapia Cognitivo-Comportamental (TCC)</div>
+        <div className="card">🔹 Análise do Comportamento Aplicada (ABA)</div>
+        <div className="card">👶 Intervenção precoce para crianças</div>
+        <div className="card">💬 Estratégias de comunicação e socialização</div>
+      </div>
 
-      {/* Cards de benefícios */}
+      <h2>Benefícios do acompanhamento</h2>
+      <p>
+        O acompanhamento psicológico proporciona melhorias na vida emocional, comportamental e social, com atenção especial às necessidades individuais.
+      </p>
+      
       <div className="benefit-cards">
         <div className="card">🧒 Atendimento especializado em crianças e jovens</div>
         <div className="card">🤝 Acolhimento individualizado e humanizado</div>
