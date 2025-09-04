@@ -1,0 +1,18 @@
+.benefits {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.benefit-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fadadd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
