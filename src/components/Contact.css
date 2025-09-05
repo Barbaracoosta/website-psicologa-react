@@ -123,9 +123,14 @@
   }
 
   .foto {
-    width: 220px;
-    height: 220px;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
     margin-bottom: 1.5rem;
+  }
+
+  .foto img {
+    height: auto;    
   }
 
   .cards-container {

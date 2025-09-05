@@ -1,28 +1,40 @@
 import "./Contact.css";
-import { FaInstagram, FaWhatsapp, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaWhatsapp,
+  FaEnvelope,
+  FaLinkedin,
+} from "react-icons/fa";
 
 function Contact() {
   return (
     <section id="contact" className="contact">
-      
       <div className="contact-container">
         <div className="foto-container">
           <img src="images/Foto1.jpeg" alt="Adrielle" className="foto" />
           <p className="legenda">Adrielle Alves - CRP 02/30430</p>
         </div>
-        
+
         <div className="cards-container">
           <h2 className="titulo">Entre em Contato</h2>
-          <p>Atendimentos presencial e on-line </p>
+          <p>Atendimentos presenciais em Olinda/PE e on-line para todo Brasil.</p>
           <div className="card-contact">
             <FaWhatsapp className="icon whatsapp" />
-            <p>WhatsApp</p>
+            <p>
+              <a
+                href="https://wa.me/SEUNUMERO"
+                target="_blank"
+                rel="noreferrer"
+              >
+                WhatsApp
+              </a>
+            </p>
           </div>
           <div className="card-contact">
             <FaInstagram className="icon instagram" />
             <p>
               <a
-                href="https://instagram.com/adriellealvs.psi"
+                href="https://instagram.com/adriellealves.psi"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -44,7 +56,9 @@ function Contact() {
           </div>
           <div className="card-contact">
             <FaEnvelope className="icon email" />
-            <p>E-mail</p>
+            <p>
+              <a href="mailto:seuemail@email.com">E-mail</a>
+            </p>
           </div>
         </div>
       </div>

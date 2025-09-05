@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fadadd;
+  background: #f8e3e4;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +33,7 @@
   font-size: 2rem;
   color: #333;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 1001;  
 }
 
 
@@ -43,7 +43,7 @@
   right: -100%;
   height: 100vh;
   width: 300px;
-  background: #fadadd;
+  background: #f8e3e4;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -86,6 +86,8 @@
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 5rem;  
 }
 
 .cta:hover {  
@@ -138,5 +140,26 @@
 
   .header .logo {
     order: 1; 
+  }
+}
+
+@media (max-width: 768px) {
+  .header nav {
+    left: 0;             
+    right: auto;
+    width: 100vw;          
+    height: 100vh;         
+    background: rgba(248, 227, 228, 0.98);
+    justify-content: flex-start;  
+    align-items: center;          
+    transform: translateX(-100%); 
+  }
+
+  .header nav.active {
+    transform: translateX(0); 
+  }
+
+  .header ul li a {
+    font-size: 1rem;   
   }
 }
