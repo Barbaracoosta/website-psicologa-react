@@ -1,0 +1,107 @@
+.about { 
+  padding: 4rem 2rem;  
+  text-align: center;
+}
+
+.about h1 {
+  color: #333;
+  margin-bottom: 2.5rem;
+  font-size: 2.8rem; 
+  font-weight: bold;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
+
+.about-text {
+  flex: 1;   
+  font-size: 1.2rem;
+  line-height: 1.6; 
+}
+
+
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;  
+}
+
+.about-photo img {  
+  max-width: 400px;
+  width: 100%;
+  height: auto;  
+  aspect-ratio: 4 / 5;
+  border-radius: 10%;
+  object-fit: cover;  
+  border: 6px solid #fadadd; 
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.about-photo img:hover {
+  transform: scale(1.05); 
+}
+
+.About-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem; 
+  justify-content: center;   
+}
+
+.card-About {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;   
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;  
+  justify-content: center; 
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: default;  
+}
+
+.card-About:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 90%;
+  }
+
+  .about-photo img {
+    max-width: 90%;
+  }
+}
