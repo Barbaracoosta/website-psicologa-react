@@ -3,7 +3,7 @@ import Hero from '../../components/Hero/Hero';
 import About from '../../components/About/About';
 import Beneficios from '../../components/Benefits/Benefits';
 //import FAQ from '../../components/FAQ/FAQ';
-//import Contato from '../../components/Contato/Contato';
+import Contact from '../../components/Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 
 function Home() {
@@ -11,9 +11,9 @@ function Home() {
     <>
       <Header />
       <Hero />
-      <About />
+      <About /> 
       <Beneficios />
-      
+      <Contact />           
       <Footer />
     </>
   );
