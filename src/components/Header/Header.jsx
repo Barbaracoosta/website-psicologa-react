@@ -14,7 +14,7 @@ function Header() {
 
       
       <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
+        {menuOpen ? <FaTimes color="#e6a7a7"/> : <FaBars color="#e6a7a7"/>}
       </div>
       
       <nav className={`nav ${menuOpen ? "active" : ""}`}>

@@ -4,12 +4,12 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="hero-content">
         <img src={logo} alt="Adrielle Alves Psicóloga" className="hero-logo" />
 
         <h1 className="hero-text">
-          Aqui <span>suas emoções</span> ganham voz!
+          Aqui suas <span> emoções</span> ganham voz!
           <br />        
                     
         </h1>

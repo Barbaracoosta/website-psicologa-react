@@ -4,20 +4,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: white;
+  background: rgba(255, 255, 255, 0.75);
   position: fixed;
   z-index: 1000;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
 }
 
 .logo img {
-  height: 60px;
-  width: 60px;
+  height: 60px;  
 }
 
 .menu-toggle {
   display: none; 
-  font-size: 1.8rem;
+  font-size: 2rem;
   cursor: pointer;
+   
 }
 
 .nav {
@@ -33,37 +36,56 @@
 }
 
 .nav ul li a {
-  text-decoration: none;
-  color: #555;
-  font-weight: 500;
-  font-weight: bold;
+  text-decoration: none;  
+  font-weight: 500; 
+  position: relative; 
+  font-size: 1.2rem;
 }
 
-.header ul li a:hover {
-  color: #ee95ca;
+.nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #e8a6c1;
+  transition: width 0.3s ease;
+}
+
+.nav ul li:nth-child(1) a { color: #9bc7c5; } 
+.nav ul li:nth-child(2) a { color: #d8a1c4; } 
+.nav ul li:nth-child(3) a { color: #8fb7c8; } 
+.nav ul li:nth-child(4) a { color: #e6a7a7; } 
+
+.nav ul li a:hover {
+  color: #d48fa6;
+  opacity: 0.8;
+  text-shadow: 0 2px 8px rgba(232, 166, 193, 0.35);
+}
+
+.nav ul li a:hover::after {
+  width: 100%;  
 }
 
 .cta {
-  padding: 0.7rem 1.6rem;
+  padding: 0.75rem 1.8rem;
   border-radius: 999px;
-  background: #e7b2d4;
+  background: linear-gradient(135deg, #e7b2d4, #e8a6c1);
   color: white;
   text-decoration: none;
   font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.header nav.active {
-  right: 0;
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(216, 144, 183, 0.3);
 }
-
 
 
 @media (max-width: 900px) {
-  .header {
-    font-size: 1rem;
-    padding: 0.6rem 1.2rem;
-    justify-content: space-between;
-  }
+ 
 
   .header .logo img {
     width: 50px;
@@ -116,15 +138,14 @@
     left: auto;
     right: 0;
     width: 100%;
-    background: white;
-
     flex-direction: column;
     align-items: center;
-
     gap: 1.5rem;
     padding: 2rem 0;
-
     display: none; 
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); 
   }
 
   .nav.active {
