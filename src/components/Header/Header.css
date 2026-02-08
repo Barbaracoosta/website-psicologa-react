@@ -57,6 +57,7 @@
 .nav ul li:nth-child(2) a { color: #d8a1c4; } 
 .nav ul li:nth-child(3) a { color: #8fb7c8; } 
 .nav ul li:nth-child(4) a { color: #e6a7a7; } 
+.nav ul li:nth-child(5) a { color: #dfa0e7; } 
 
 .nav ul li a:hover {
   color: #d48fa6;
@@ -84,8 +85,7 @@
 }
 
 
-@media (max-width: 900px) {
- 
+@media (max-width: 900px) { 
 
   .header .logo img {
     width: 50px;

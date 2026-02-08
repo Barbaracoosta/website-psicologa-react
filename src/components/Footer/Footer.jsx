@@ -8,19 +8,20 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
                  
-         <div className="footer-links">          
-            <a href="#sobre">Sobre</a>
+         <div className="footer-links"> 
+            <a href="#hero">Início</a>      
+            <a href="#about">Sobre</a>
             <a href="#benefits">Benefícios</a>              
-            <a href="#contact">Contato</a>         
             <a href="#faq">Faq</a>
           </div>
           <p>© {currentYear} - Adrielle Alves Psicóloga Clínica - CRP 02/30430 | Todos os direitos reservados</p>;
           <div className="footer-socials">          
             <a href="https://instagram.com/adriellealves.psi" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram />
-            </a>
+            </a>        
 
           </div>
+          
        </div> 
     </footer>
   );

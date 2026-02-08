@@ -1,5 +1,5 @@
 .benefits {
-  padding: 5rem 3rem;
+  padding: 4rem 2rem;
   text-align: center;
 }
 
@@ -7,7 +7,7 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #222;
+  color: #333;
 }
 
 .benefits h2 {
@@ -34,7 +34,7 @@
 }
 
 .card {
-  background: #f8e3e4;
+  background: #f8e7e8f1;
   padding: 1.5rem;
   border-radius: 10px;
   font-weight: bold;
@@ -59,9 +59,7 @@
 
 
 @media (min-width: 1200px) {
-  .benefits {
-    padding: 6rem 4rem;
-  }
+  
 
   .benefits h1 {
     font-size: 2.5rem;
