@@ -55,8 +55,15 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
+.faq-pergunta:focus,
+.faq-pergunta:active {
+  outline: none;
+  box-shadow: none;
+}
 
 .icone {
   width: 10px;
@@ -99,15 +106,7 @@
 
 @media (max-width: 768px) {
 
-  .faq {
-    padding: 3.5rem 1.2rem;
-    background: linear-gradient(
-      180deg,
-      #ffffff 50%,
-      #f6fbf9 100%
-      
-    );
-  }
+  
 
   .faq h2 {
     font-size: 1.6rem;
