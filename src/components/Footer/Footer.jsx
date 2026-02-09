@@ -14,7 +14,7 @@ function Footer() {
             <a href="#benefits">Benefícios</a>              
             <a href="#faq">Faq</a>
           </div>
-          <p>© {currentYear} - Adrielle Alves Psicóloga Clínica - CRP 02/30430 | Todos os direitos reservados</p>;
+          <p>© {currentYear} - Adrielle Alves Psicóloga Clínica - CRP 02/30430 | Todos os direitos reservados</p>
           <div className="footer-socials">          
             <a href="https://instagram.com/adriellealves.psi" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram />

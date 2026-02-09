@@ -7,3 +7,14 @@ section {
   padding: 60px;  
   scroll-margin-top: 96px;
 }
+
+:root {
+  --rosa-principal: #e8a6b6;
+  --rosa-pastel:#fbf4f6;
+  --azul-suave: #bcd9e8;
+  --lilas-claro: #d8c6e8;
+  --verde-menta: #cfe8dc;
+  --bege-claro: #f7f4f2;
+  --branco: #ffffff;
+  --cinza-texto: #5c5c5c;
+}
