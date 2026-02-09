@@ -5,7 +5,7 @@
     var(--rosa-pastel) 100% 
   );
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 1.5rem 1rem;
   border-top: 1px solid rgba(239, 142, 200, 0.1);  
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
@@ -20,8 +20,7 @@
   gap: 0.8rem;
 }
 
-.footer-content p {
-  font-size: 1.1rem;
+.footer-content p {  
   margin: 0;
   text-align: center;
   transition: color 0.3s ease;
@@ -42,6 +41,7 @@
 .footer-links a {
   text-decoration: none;
   font-weight: 500;
+  font-size: 1.1rem;
   transition: transform 0.3s ease, color 0.3s ease;   
 }
 
@@ -67,7 +67,7 @@
   height: 50px;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border: 1px solid rgba(238, 100, 178, 0.622);
   transition: transform 0.3s ease;
 }
@@ -79,6 +79,7 @@
 @media (max-width: 768px) {
   .footer {    
     padding: 1rem;
+
   }
 }
 

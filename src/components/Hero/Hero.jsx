@@ -20,7 +20,7 @@ export default function Hero() {
           target="_blank"
           rel="noreferrer"
         >
-          Entre em contato <FaWhatsapp className="icon" />
+          Entre em contato <FaWhatsapp className="icon"/>
         </a>
       </div>
     </section>

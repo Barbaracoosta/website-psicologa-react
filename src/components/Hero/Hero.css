@@ -1,5 +1,6 @@
 .hero {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2rem 1rem;
   background-image: url("../../assets/Images/imagem-fundo.jpeg");
   background-size: cover;
   background-position: center;
@@ -29,18 +30,16 @@
 }
 
 .hero-logo {
-  width: 800px;
-  max-width: 90%;
+  width: clamp(200px, 100vw, 900px);  
   margin: 0;
-  z-index: 2;
-  text-shadow: 0 4px 15px rgba(0,0,0,0.4);
-  
+  z-index: 2;   
 }
 
 .hero-text {
-  font-size: 2rem;  
+  font-size: clamp(1.2rem, 4vw, 2rem);  
   margin: 0;
   color: #d48fa6;
+  padding: 0 1rem;
 }
 
 .hero-text span {   
@@ -49,8 +48,8 @@
 
 
 .hero-button {
-  margin-top: 2rem;
-  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.8rem;
   font-size: 1rem;
   border-radius: 999px;
   border: none;
@@ -68,4 +67,20 @@
 .hero-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
+  .hero-button {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
 }
