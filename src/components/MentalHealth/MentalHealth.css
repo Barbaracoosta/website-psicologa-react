@@ -1,0 +1,118 @@
+.mental-health {
+  padding: 4rem 2rem;
+  background: linear-gradient(
+    180deg,
+    var(--branco) 50%,
+    var(--rosa-pastel) 100%      
+  );
+  text-align: center;
+}
+
+.mental-health h2 {
+  font-size: 2rem;
+  color: var(--rosa-principal);
+  margin-bottom: 3rem;
+}
+
+
+.mental-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+
+.mental-box {
+  background: var(--branco);
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.mental-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+}
+
+.mental-box h3 {
+  color: var(--rosa-principal);
+  margin-bottom: 1rem;
+}
+
+.mental-box p,
+.mental-box li {
+  color: var(--cinza-texto);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.mental-box ul {
+  padding-left: 1rem;
+}
+
+.mental-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(232, 166, 182, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--rosa-principal);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.mental-cta {
+  margin-top: 4rem;
+}
+
+.mental-cta p {
+  margin-bottom: 1.5rem;
+  color: var(--cinza-texto);
+  font-size: 1rem;
+}
+
+.mental-btn {
+  background: var(--rosa-principal);
+  color: var(--branco);
+  border: none;
+  padding: 0.9rem 2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.mental-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(232, 166, 182, 0.4);
+}
+
+@media (max-width: 768px) {
+
+  .mental-health {
+    padding: 3.5rem 1.2rem;
+  }
+
+  .mental-health h2 {
+    font-size: 1.6rem;
+  }
+
+  .mental-container {
+    gap: 1.5rem;
+  }
+
+  .mental-box {
+    padding: 1.5rem;
+  }
+
+  .mental-btn {
+    width: 100%;
+  }
+
+}

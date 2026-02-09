@@ -1,0 +1,153 @@
+.faq {  
+  padding: 4rem 2rem;
+  background: linear-gradient(
+    180deg,        
+    #ffffff 50%,
+    #f6fbf9 100%
+  );
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e8a6b6;
+  margin-bottom: 0.5rem;
+}
+
+.faq-subtitulo {
+  text-align: center;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+
+.faq-item {
+  background: #ffffff;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+
+.faq-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.faq-pergunta {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 1.3rem 1.5rem;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.icone {
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #e8a6b6;
+  border-bottom: 2px solid #e8a6b6;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+
+.faq-item.ativa .icone {
+  transform: rotate(-135deg);
+}
+
+
+.faq-resposta {
+  max-height: 0;
+  overflow: hidden;
+  transition: 
+    max-height 0.4s ease,
+    padding 0.3s ease,
+    opacity 0.3s ease;
+  opacity: 0;
+  padding: 0 1.5rem;
+}
+
+.faq-item.ativa .faq-resposta {
+  max-height: 300px;
+  opacity: 1;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.faq-resposta p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 768px) {
+
+  .faq {
+    padding: 3.5rem 1.2rem;
+    background: linear-gradient(
+      180deg,
+      #ffffff 50%,
+      #f6fbf9 100%
+      
+    );
+  }
+
+  .faq h2 {
+    font-size: 1.6rem;
+  }
+
+  .faq-subtitulo {
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+  }
+
+  .faq-container {
+    max-width: 100%;
+  }
+
+  .faq-pergunta {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+    line-height: 1.4;
+    min-height: 60px;
+  }
+
+  .faq-resposta p {
+    font-size: 0.9rem;
+  }
+
+  .faq-item {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  }
+
+  
+  .faq-item.ativa .faq-resposta {
+    max-height: 500px;
+  }
+
+  
+  .icone {
+    width: 8px;
+    height: 8px;
+  }
+
+}
