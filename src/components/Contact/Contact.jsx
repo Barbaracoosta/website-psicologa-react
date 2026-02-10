@@ -4,6 +4,7 @@ import {
   FaWhatsapp,
   FaEnvelope,
   FaLinkedin,
+  FaClock,
 } from "react-icons/fa";
 
 function Contact() {
@@ -11,13 +12,15 @@ function Contact() {
     <section id="contact" className="contact">
       <div className="contact-container">
         <div className="foto-container">
-          <img src="images/Foto1.jpeg" alt="Adrielle" className="foto" />
+          <img src="images/Foto2.jpeg" alt="Adrielle" className="foto" />
           <p className="legenda">Adrielle Alves - CRP 02/30430</p>
         </div>
 
         <div className="cards-container">
-          <h2 className="titulo">Entre em Contato</h2>
-          <p>Atendimentos presenciais em Olinda/PE e on-line para todo Brasil.</p>
+          <h2 className="titulo">Contato</h2>
+          <p>
+            Atendimentos presenciais em Olinda/PE e on-line para todo Brasil.
+          </p>
           <div className="card-contact">
             <FaWhatsapp className="icon whatsapp" />
             <p>
@@ -59,6 +62,10 @@ function Contact() {
             <p>
               <a href="mailto:adrielle-alves@live.com">E-mail</a>
             </p>
+          </div>
+          <div className="card-resposta">
+            <FaClock className="icon clock" />
+            <p>Tempo médio de resposta: até 24 horas úteis.</p>
           </div>
         </div>
       </div>
