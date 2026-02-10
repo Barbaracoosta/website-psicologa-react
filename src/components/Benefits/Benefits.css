@@ -178,34 +178,3 @@
   }
 }
 
-@media (max-width: 479px) {
-  .benefits {
-    padding: 3rem 1rem;
-  }
-
-  .benefits h1 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  }
-
-  .benefits h2 {
-    font-size: 1.3rem;
-    margin-top: 1.8rem;
-    margin-bottom: 1rem;
-  }
-
-  .card h3 {
-    font-size: 1rem;
-  }
-
-  .benefit-cards {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .card {
-    font-size: 0.85rem;
-    padding: 1rem;
-    gap: 0.7rem;
-  }
-}

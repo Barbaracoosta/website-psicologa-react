@@ -19,3 +19,9 @@ section {
   --branco: #ffffff;
   --cinza-texto: #5c5c5c;
 }
+
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 60px; 
+  }
+}
