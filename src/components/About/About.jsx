@@ -5,25 +5,71 @@ function About() {
   return (
     <section id="about" className="about fade-in">
       <h1>Sobre mim</h1>
+
       <div className="about-content">
         <div className="about-text">
           <p>
-            Sou <strong>Adrielle Alves</strong>, psicóloga clínica (CRP 02/30430), dedicada ao cuidado da saúde mental com foco em crianças e adolescentes. Minha missão é oferecer um espaço seguro e acolhedor, onde cada pessoa possa se expressar livremente e encontrar caminhos para lidar com suas emoções e desafios. Acredito que a psicologia tem o poder de transformar vidas e que, através da escuta e do acolhimento,
-             é possível promover desenvolvimento, bem-estar e qualidade de vida. 
-            Sou especializada em diferentes áreas que fortalecem minha prática clínica,
-             como TCC (Terapia Cognitivo-Comportamental), Neuropsicologia, Avaliação Psicológica, Psicodiagnóstico e 
-             intervenções ABA aplicadas à infância e adolescência.
+            Sou <strong>Adrielle Alves</strong>, psicóloga clínica (CRP
+            02/30430), com atuação voltada ao desenvolvimento emocional de
+            crianças e adolescentes.
+          </p>
+
+          <p>
+            Há mais de cinco anos acompanho o crescimento de crianças típicas e
+            neuroatípicas, oferecendo um espaço estruturado, seguro e acolhedor,
+            onde possam compreender suas emoções e enfrentar os desafios do
+            cotidiano com mais segurança.
+          </p>
+
+          <p>
+            Acredito que a psicologia, quando fundamentada em ciência e
+            conduzida com sensibilidade, tem o poder de transformar trajetórias
+            e promover autonomia.
+          </p>
+
+          <p>
+            Meu trabalho é pautado na ética, no compromisso técnico e no
+            fortalecimento do vínculo terapêutico, sempre respeitando a
+            singularidade de cada paciente e atuando em parceria com a família e
+            com a escola quando necessário.
           </p>
         </div>
+
         <div className="about-photo">
           <img src="images/About.foto.jpeg" alt="Adrielle" />
-        </div>        
+        </div>
       </div>
-      <div className="About-cards">
-        <div className="card-About">Profissionalismo e Ètica</div>
-        <div className="card-About">Empatia e Acolhimento</div>
-        <div className="card-About">Clareza e direcionamento</div>
-        <div className="card-About">Sigilo e Confiança</div>
+
+      <div className="formation-section">
+        <h2>Formação e Especializações</h2>
+
+        <div className="formation-grid">
+          <div className="formation-card">
+            <h3>TCC</h3>
+            <p>Terapia Cognitivo-Comportamental</p>
+          </div>
+
+          <div className="formation-card">
+            <h3>Neuropsicologia</h3>
+            <p>Avaliação e compreensão do desenvolvimento cognitivo</p>
+          </div>
+
+          <div className="formation-card">
+            <h3>Avaliação Psicológica</h3>
+            <p>Psicodiagnóstico e intervenções estruturadas</p>
+          </div>
+
+          <div className="formation-card">
+            <h3>ABA</h3>
+            <p>Análise do Comportamento Aplicada</p>
+          </div>
+        </div>
+
+        <p className="protocolos">
+          Formação complementar nos protocolos ABLLS-R, VB-MAPP, PEI e AFLS,
+          utilizados para avaliação e planejamento de intervenções
+          individualizadas.
+        </p>
       </div>
     </section>
   );

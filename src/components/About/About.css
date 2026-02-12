@@ -1,13 +1,13 @@
-.about { 
-  padding: 4rem 2rem;  
+.about {
+  padding: 4rem 2rem;
   text-align: center;
 }
 
 .about h1 {
   color: var(--rosa-principal);
   margin-bottom: 2.5rem;
-  font-size: 2rem; 
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .about-content {
@@ -17,69 +17,89 @@
   gap: 3rem;
   flex-wrap: wrap;
   max-width: 1000px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
-
 
 .about-text {
-  flex: 1;   
-  font-size: 1.2rem;
-  line-height: 1.6; 
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #444;
+  max-width: 560px;
 }
 
+.about-text p {
+  margin-bottom: 1.2rem;
+}
 
 .about-photo {
   flex: 1;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
-.about-photo img {  
+.about-photo img {
   max-width: 400px;
   width: 100%;
-  height: auto;  
+  height: auto;
   aspect-ratio: 4 / 5;
   border-radius: 10%;
-  object-fit: cover;  
+  object-fit: cover;
   border: 6px solid transparent;
-  background: linear-gradient(white, white) padding-box,
-              linear-gradient(45deg, #e8a6b6, #bcd9e8, #d8c6e8) border-box;
-
-  box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(45deg, #e8a6b6, #bcd9e8, #d8c6e8) border-box;
 }
 
-.about-photo img:hover {
-  transform: scale(1.05); 
-}
-
-.About-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  margin-top: 3rem; 
-  justify-content: center;   
-}
-
-.card-About {
-  background-color: #fff;
-  padding: 1rem 1.5rem;
-  border-radius: 12px;   
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  font-weight: bold;
+.formation-section {
+  margin-top: 4rem;
   text-align: center;
-  display: flex;
-  align-items: center;  
-  justify-content: center; 
-  transition: transform 0.3s, box-shadow 0.3s;
-  cursor: default;  
 }
 
-.card-About:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+.formation-section h2 {
+  color: var(--rosa-principal);
+  margin-bottom: 2.5rem;
+  font-size: 1.8rem;
 }
 
+.formation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+}
+
+.formation-card {
+  background: rgba(232, 166, 182, 0.08);
+  padding: 2rem 1.5rem;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+}
+
+.formation-card h3 {
+  color: var(--rosa-principal);
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.formation-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.formation-card:hover {
+  transform: translateY(-4px);
+}
+
+.protocolos {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
 
 .fade-in {
   opacity: 0;
@@ -92,7 +112,6 @@
   }
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
@@ -106,5 +125,9 @@
 
   .about-photo img {
     max-width: 90%;
+  }
+
+  .formation-grid {
+    grid-template-columns: 1fr;
   }
 }
