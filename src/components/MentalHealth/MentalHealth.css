@@ -3,7 +3,7 @@
   background: linear-gradient(
     180deg,
     var(--branco) 40%,
-    var(--rosa-pastel) 80%      
+    var(--rosa-pastel) 80%
   );
 }
 
@@ -16,10 +16,8 @@
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--rosa-principal);
-  text-align: center;  
+  text-align: center;
 }
-
-
 
 .mental-intro p {
   line-height: 1.8;
@@ -65,7 +63,6 @@
   margin-top: 1.5rem;
   color: var(--rosa-principal);
 }
-
 
 @media (max-width: 768px) {
   .mental-content {
