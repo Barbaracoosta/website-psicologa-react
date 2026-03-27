@@ -26,10 +26,13 @@ function Benefits() {
           <div className="step">
             <span className="number">02</span>
             <div className="content">
-              <h3>Definição de objetivos</h3>
+              <h3>Definição de objetivos terapêuticos</h3>
               <p>
-                Estabelecemos metas claras, realistas e mensuráveis, construídas
-                de forma colaborativa para direcionar o plano terapêutico.
+                Após a avaliação, estabelecemos metas claras, realistas e
+                mensuráveis. Os objetivos são construídos de forma colaborativa
+                e direcionam o plano de intervenção, garantindo que cada sessão
+                tenha propósito e alinhamento com as necessidades do paciente e
+                da família.
               </p>
             </div>
           </div>
@@ -38,12 +41,26 @@ function Benefits() {
             <span className="number">03</span>
             <div className="content">
               <h3>Técnicas baseadas em evidências</h3>
+
+              <p>
+                Nesta etapa, utilizamos estratégias fundamentadas na Terapia
+                Cognitivo-Comportamental (TCC) e na Análise do Comportamento
+                Aplicada (ABA), sempre adaptadas ao perfil e à faixa etária do
+                paciente.
+              </p>
+
               <ul>
                 <li>Treino de habilidades sociais</li>
                 <li>Regulação emocional</li>
                 <li>Reestruturação de pensamentos</li>
                 <li>Desenvolvimento de autonomia</li>
+                <li>Intervenções comportamentais estruturadas</li>
               </ul>
+
+              <p>
+                O processo é ativo, prático e focado em promover mudanças reais
+                no dia a dia.
+              </p>
             </div>
           </div>
 
@@ -52,8 +69,12 @@ function Benefits() {
             <div className="content">
               <h3>Desenvolvimento de autonomia</h3>
               <p>
-                Fortalecimento de recursos internos e construção de
-                independência emocional para lidar com desafios.
+                O objetivo final do acompanhamento é fortalecer recursos
+                internos, ampliar repertórios comportamentais e promover
+                independência emocional. A autonomia permite que a criança,
+                adolescente ou jovem adulto desenvolva maior segurança para
+                lidar com desafios, tomar decisões e construir relações mais
+                saudáveis.
               </p>
             </div>
           </div>
