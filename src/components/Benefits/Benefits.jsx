@@ -3,12 +3,17 @@ import "./Benefits.css";
 function Benefits() {
   return (
     <section id="benefits" className="benefits">
-      <div className="container">
+
+      <div className="headerBenefits">
+        <span className="badge">Processo terapêutico</span>
         <h1 className="title">Como funciona?</h1>
-        <p className="subtitle">
+        <p className="subtitle">  
           O processo terapêutico é estruturado e individualizado, respeitando as
           necessidades de cada criança, adolescente ou jovem adulto.
         </p>
+      </div>
+
+    <div className="container">
 
         <div className="timeline">
           <div className="step">
@@ -126,14 +131,14 @@ function Benefits() {
         <div className="section">
           <h2>Benefícios do acompanhamento</h2>
           <div className="benefits-list">
-            <div className="benefit-item">Atendimento especializado</div>
-            <div className="benefit-item">Intervenções personalizadas</div>
-            <div className="benefit-item">Acolhimento humanizado</div>
-            <div className="benefit-item">Trabalho com a família</div>
-            <div className="benefit-item">Experiência com TEA</div>
-            <div className="benefit-item">Planejamento estruturado</div>
-            <div className="benefit-item">Monitoramento contínuo</div>
-            <div className="benefit-item">Evolução acompanhada</div>
+            <div className="benefit-item"> ✔ Atendimento especializado</div>
+            <div className="benefit-item"> ✔ Intervenções personalizadas</div>
+            <div className="benefit-item"> ✔ Acolhimento humanizado</div>
+            <div className="benefit-item"> ✔ Trabalho com a família</div>
+            <div className="benefit-item"> ✔ Experiência com TEA</div>
+            <div className="benefit-item"> ✔ Planejamento estruturado</div>
+            <div className="benefit-item"> ✔ Monitoramento contínuo</div>
+            <div className="benefit-item"> ✔ Evolução acompanhada</div>
           </div>
         </div>
       </div>
