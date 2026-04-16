@@ -3,18 +3,16 @@ import "./Benefits.css";
 function Benefits() {
   return (
     <section id="benefits" className="benefits">
-
       <div className="headerBenefits">
         <span className="badge">Processo terapêutico</span>
         <h1 className="title">Como funciona?</h1>
-        <p className="subtitle">  
+        <p className="subtitle">
           O processo terapêutico é estruturado e individualizado, respeitando as
           necessidades de cada criança, adolescente ou jovem adulto.
         </p>
       </div>
 
-    <div className="container">
-
+      <div className="container">
         <div className="timeline">
           <div className="step">
             <span className="number">01</span>

@@ -4,7 +4,10 @@ import "./About.css";
 function About() {
   return (
     <section id="about" className="about fade-in">
-      <h1>Sobre mim</h1>
+      <div className="headerBenefits">
+        <span className="badge">Quem Sou</span>
+        <h1 className="title">Sobre mim</h1>
+      </div>
 
       <div className="about-content">
         <div className="about-text">

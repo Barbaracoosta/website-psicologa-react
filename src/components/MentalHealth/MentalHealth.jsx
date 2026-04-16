@@ -3,9 +3,14 @@ import "./MentalHealth.css";
 function MentalHealth() {
   return (
     <section className="mental-health" id="mentalhealth">
+
+      <div className="headerBenefits">
+        <span className="badge">Saúde Mental</span>
+        <h1 className="title">Cuidar da Mente é Cuidar de Você</h1>
+      </div>
       
       <div className="mental-intro">
-        <h2>Cuidar da Mente é Cuidar de Você</h2>
+        
         <p>
           Cuidar da saúde mental é um gesto de responsabilidade e carinho consigo mesmo.
           Assim como cuidamos do corpo, a mente também precisa de atenção, escuta e orientação adequada.
