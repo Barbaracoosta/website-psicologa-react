@@ -11,26 +11,25 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="headerBenefits">
-        <span className="badge">Comunicação</span>
-        <h1 className="title">Entre em Contato</h1>
+        <span className="badge">Contato</span>
+        <h1 className="title">Vamos Conversar?</h1>
         <p className="subtitle">
-          Atendimentos presenciais em Olinda/PE e on-line para todo Brasil.        
+          Atendimentos presenciais em Olinda/PE e on-line para todo o Brasil.
         </p>
       </div>
 
       <div className="contact-container">
         <div className="foto-container">
           <img src="images/Foto2.jpeg" alt="Adrielle" className="foto" />
-          <p className="legenda">Adrielle Alves - CRP 02/30430</p>
-        </div>          
+          <p className="legenda">Adrielle Alves • Psicóloga Infantil • CRP 02/30430</p>
+        </div>
 
-        <div className="cards-container">          
-            
+        <div className="cards-container">
           <div className="card-contact">
             <FaWhatsapp className="icon whatsapp" />
             <p>
               <a
-                href="https://wa.me/SEUNUMERO"
+                href="https://wa.me/5581999214212"
                 target="_blank"
                 rel="noreferrer"
               >
