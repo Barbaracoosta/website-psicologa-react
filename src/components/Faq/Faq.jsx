@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Faq.css";
 
+
 const perguntas = [
   {
     pergunta: "O que é a Terapia Cognitivo-Comportamental (TCC)?",
@@ -72,6 +73,19 @@ export default function FAQ() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="faq-cta">
+        <p>Não encontrou sua dúvida? Clique abaixo e fale comigo </p>
+
+        <a
+          href="https://wa.me/5581999214212"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-whatsapp"
+        > 
+          Falar no WhatsApp
+          
+        </a>
       </div>
     </section>
   );
