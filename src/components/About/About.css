@@ -69,6 +69,7 @@
   gap: 2rem;
   max-width: 700px;
   margin: 0 auto 3rem auto;
+  
 }
 
 .formation-card {
@@ -76,6 +77,7 @@
   padding: 2rem 1.5rem;
   border-radius: 18px;
   transition: all 0.3s ease;
+  
 }
 
 .formation-card h3 {
@@ -100,6 +102,13 @@
   color: #666;
   font-size: 0.95rem;
   line-height: 1.7;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 4px solid var(--rosa-principal);
+  background: rgba(232, 166, 182, 0.1);
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: left;
 }
 
 .fade-in {

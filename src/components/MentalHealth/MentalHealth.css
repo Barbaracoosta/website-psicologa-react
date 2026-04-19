@@ -5,18 +5,12 @@
     var(--branco) 40%,
     var(--rosa-pastel) 80%
   );
+  color: #555;
 }
 
 .mental-intro {
   max-width: 800px;
   margin: 0 auto 4rem;
-}
-
-.mental-intro h1 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: var(--rosa-principal);
-  text-align: center;
 }
 
 .mental-intro p {
@@ -41,30 +35,69 @@
 
 .mental-block ul {
   padding-left: 1.2rem;
-  line-height: 1.8;
-  color: #555;
+  line-height: 1.8;  
   margin-bottom: 1rem;
 }
 
+.mental-block {
+  background: #fff;
+  padding: 1.8rem;
+  border-radius: 16px;
+  border: 1px solid rgba(232, 166, 182, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.mental-block:hover {
+  transform: translateY(-5px);
+  border-color: var(--rosa-principal);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
 .mental-note {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 4px solid var(--rosa-principal);
+  background: rgba(232, 166, 182, 0.1);
+  border-radius: 8px;
   font-weight: 500;
-  color: var(--rosa-principal);
 }
 
 .mental-footer {
   max-width: 800px;
   margin: 5rem auto 0;
-  line-height: 1.8;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
   text-align: center;
+  line-height: 1.8;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.mental-footer::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);  
+  width: 20px;
+  height: 20px;
+  background: #fff;  
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
 }
 
 .mental-footer strong {
   display: block;
   margin-top: 1.5rem;
-  color: var(--rosa-principal);
+  color: var(--rosa-principal);  
+  
 }
-
 @media (max-width: 768px) {
+  .mental-health {
+    padding: 3rem 1.5rem;
+  }
   .mental-content {
     grid-template-columns: 1fr;
     gap: 3rem;

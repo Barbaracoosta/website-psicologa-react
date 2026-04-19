@@ -1,6 +1,10 @@
 .benefits {
-  padding: 6rem 2rem;
-  background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--secondary-light) 100%);
+  padding: clamp(3rem, 6vw, 6rem) clamp(1.5rem, 4vw, 2rem);
+  background: linear-gradient(
+    135deg,
+    var(--secondary-dark) 0%,
+    var(--secondary-light) 100%
+  );
 }
 
 .container {
@@ -26,7 +30,11 @@
 
 .badge {
   display: inline-block;
-  background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-light) 0%,
+    var(--secondary-light) 100%
+  );
   color: var(--cinza-texto);
   font-size: 0.75rem;
   font-weight: 500;
@@ -37,7 +45,6 @@
   margin-bottom: 1.5rem;
 }
 
-/* TIMELINE */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -67,7 +74,11 @@
   flex-shrink: 0;
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-light) 0%,
+    var(--secondary-light) 100%
+  );
   border-radius: 28px;
   display: flex;
   align-items: center;
@@ -93,9 +104,8 @@
   color: #555;
 }
 
-/* SECTION */
 .section {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .section h2 {
@@ -105,7 +115,6 @@
   text-align: center;
 }
 
-/* APPROACH */
 .approach-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -115,8 +124,8 @@
 .approach-card {
   padding: 1.5rem;
   border-radius: 12px;
-  background: rgba(255,255,255,0.7);
-  border: 1px solid rgba(0,0,0,0.05);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(6px);
   transition: transform 0.2s ease;
 }
@@ -136,7 +145,6 @@
   line-height: 1.8;
 }
 
-/* BENEFITS */
 .benefits-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -147,19 +155,23 @@
   border: 1px solid #f3e8ff;
   box-shadow: var(--shadow-sm);
   background: var(--branco);
-  padding: 1rem .40rem;
+  padding: 1rem 0.4rem;
   border-radius: 12px;
   display: flex;
   align-items: center;
   gap: 0.75rem;
   transition: all 0.2s ease;
-  color: #555
+  color: #555;
 }
 
 .benefit-item:hover {
   transform: translateY(-2px);
   border-color: var(--primary-light);
-  background: linear-gradient(135deg, var(--bg-white) 0%, var(--primary-light) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(232, 166, 182, 0.2),
+    rgba(188, 217, 232, 0.2)
+  );
 }
 
 .benefit-item span:last-child {
@@ -173,18 +185,18 @@
   margin-bottom: 5rem;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 1024px) {
   .approach-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
   }
-  
+
   .benefits-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.875rem;
   }
-  
+
   .title {
     font-size: 2.5rem;
   }
