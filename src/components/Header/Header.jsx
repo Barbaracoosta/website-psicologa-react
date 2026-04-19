@@ -38,7 +38,7 @@ function Header() {
           <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a></li>
         </ul>
         <a
-          className="cta"
+          className="cta-Header"
           href="https://wa.me/5581999214212"
           target="_blank"
           rel="noreferrer"
