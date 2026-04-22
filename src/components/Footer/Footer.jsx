@@ -14,8 +14,8 @@ function Footer() {
           <a href="#faq">Faq</a>
         </div>
         <p>
-          © {currentYear} - Adrielle Alves Psicóloga Clínica - CRP 02/30430 |
-          Todos os direitos reservados
+          © {currentYear} - Adrielle Alves • CRP 02/30430 | Todos os direitos
+          reservados
         </p>
         <div className="footer-socials">
           <a
