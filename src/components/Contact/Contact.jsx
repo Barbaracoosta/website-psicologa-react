@@ -21,51 +21,47 @@ function Contact() {
       <div className="contact-container">
         <div className="foto-container">
           <img src="images/Foto2.jpeg" alt="Adrielle" className="foto" />
-          <p className="legenda">Adrielle Alves • Psicóloga Infantil • CRP 02/30430</p>
+          <p className="legenda">Adrielle Alves • Psicóloga Clínica</p>
         </div>
 
         <div className="cards-container">
           <div className="card-contact">
             <FaWhatsapp className="icon whatsapp" />
-            <p>
-              <a
-                href="https://wa.me/5581999214212"
-                target="_blank"
-                rel="noreferrer"
-              >
-                WhatsApp
-              </a>
-            </p>
+
+            <a
+              href="https://wa.me/5581999214212"
+              target="_blank"
+              rel="noreferrer"
+            >
+              WhatsApp
+            </a>
           </div>
           <div className="card-contact">
             <FaInstagram className="icon instagram" />
-            <p>
-              <a
-                href="https://instagram.com/adriellealves.psi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Instagram
-              </a>
-            </p>
+
+            <a
+              href="https://instagram.com/adriellealves.psi"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
           </div>
           <div className="card-contact">
             <FaLinkedin className="icon linkedin" />
-            <p>
-              <a
-                href="https://www.linkedin.com/in/adriellealves"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-            </p>
+
+            <a
+              href="https://www.linkedin.com/in/adrielle-alves-9254a31b7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
           </div>
           <div className="card-contact">
             <FaEnvelope className="icon email" />
-            <p>
-              <a href="mailto:adrielle-alves@live.com">E-mail</a>
-            </p>
+
+            <a href="mailto:adrielle-alves@live.com">E-mail</a>
           </div>
           <div className="card-resposta">
             <FaClock className="icon clock" />
