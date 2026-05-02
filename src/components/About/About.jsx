@@ -11,7 +11,7 @@ function About() {
 
       <div className="about-content">
         <div className="about-text">
-          <p>
+          <p>            
             Sou <strong>Adrielle Alves</strong>, psicóloga clínica (CRP
             02/30430), com atuação voltada ao desenvolvimento emocional de
             crianças e adolescentes.
