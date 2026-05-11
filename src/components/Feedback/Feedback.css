@@ -1,0 +1,100 @@
+.testimonials {
+  padding: 5rem 2rem;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #fdf0f5 100%
+  );
+}
+
+.testimonials h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 3rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ASPAS */
+.quote {
+  font-size: 3rem;
+  color: #e8a6b6;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+/* TEXTO */
+.text {
+  margin-top: 1.5rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* ESTRELAS */
+.stars {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* USUÁRIO */
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 10px;
+}
+
+/* AVATAR */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e8a6b6;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+/* NOME */
+.name {
+  color: #666;
+  font-weight: 500;
+}
+
+.text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

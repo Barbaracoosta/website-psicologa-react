@@ -1,0 +1,41 @@
+.admin {
+  padding: 4rem 2rem;
+  background: #fafafa;
+}
+
+.admin h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.admin-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.actions button {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: #a8e6cf;
+}
+
+.actions .delete {
+  background: #ff8b94;
+  color: white;
+}
