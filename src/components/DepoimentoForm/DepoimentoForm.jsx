@@ -51,7 +51,7 @@ function DepoimentoForm() {
         <div className="left">
           <form className="form" onSubmit={enviar}>
             <div className="input-group">
-              <HiOutlineUser className="icon" />
+              <HiOutlineUser className="icon-form" />
 
               <input
                 type="text"
@@ -78,12 +78,12 @@ function DepoimentoForm() {
 
             <div className="rating-wrapper">
               <div className="input-group-no-border">
-                <FaRegStar className="icon" />
+                <FaRegStar className="icon-form" />
 
                 <input
                   className="input-star"
                   type="text"
-                  disabled="true"
+                  disabled
                   placeholder="Avalie meu trabalho"
                 />
               </div>

@@ -68,7 +68,6 @@
   display: flex;
   align-items: center;
   gap: 0.7rem;
-
   background: white;
   border: 1px solid #ddd;
   border-radius: 12px;
@@ -82,7 +81,7 @@
   padding: 1rem 0;
 }
 
-.icon {
+.icon-form {
   color: #a855f7;
   font-size: 1.2rem;
 }
@@ -96,7 +95,6 @@
   position: absolute;
   left: 14px;
   top: 18px;
-
   color: #a855f7;
   font-size: 1.1rem;
 }
@@ -198,77 +196,108 @@
 
 
 @media (max-width: 1024px) {
-  .form-content {
+ .form-content {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 2rem 1rem;
   }
 
   .right {
     order: 1;
-    text-align: left;
+    text-align: center;
   }
 
   .left {
     order: 2;
   }
-}
-
-@media (max-width: 768px) {
-  .form-section {
-    padding: 3rem 1.5rem;
-  }
-
-  .form-content {
-    padding: 2rem 1rem;
-  }
 
   .form {
     max-width: 100%;
-    margin: 1.5rem auto;
+  }
+}
+
+@media (max-width: 768px) {
+   .form-section {
+    padding: 3rem 1rem;
+  }
+
+  .form-content {
+    padding: 1rem;
+    gap: 0;
+  }
+
+  .form {
+    margin: 1rem auto;
+    gap: 0.5rem;
   }
 
   .form input,
   .form textarea,
   .form select {
     font-size: 0.95rem;
-    padding: 0.8rem;
   }
 
-  .send-button {
-    padding: 0.8rem;
+  .rating-wrapper {
+    gap: 1rem;
   }
 
-  .stars span {
-    font-size: 1.3rem;
+  .star {
+    font-size: 1.6rem;
   }
 
   .info-box {
     font-size: 0.85rem;
   }
-
-  .right {
-    text-align: center;
-  }
 }
+@media (max-width: 540px) {
+  .rating-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
 
-@media (max-width: 480px) {
-  .form-section {
-    padding: 2.5rem 1rem;
+    gap: 1rem;
   }
 
-  .form-content {
-    gap: 0;
+  .stars {
+    width: 100%;
+    justify-content: center;
   }
 
-  .stars span {
-    font-size: 1.2rem;
+  .star {
+    font-size: 1.8rem;
   }
 
   .send-button {
-    font-size: 0.9rem;
+    width: 100%;
   }
 
-  .rating-wrapper {
-    gap: 0.5rem;
+  .input-group-no-border {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .form-section {
+    padding: 2rem 0.8rem;
+  }
+
+  .textarea-wrapper textarea {
+    padding-left: 2.5rem;
+  }
+
+  .star {
+    font-size: 1.5rem;
+  }
+
+  .icon-form,
+  .textarea-icon {
+    font-size: 1rem;
+  }
+
+  .input-group-no-border {
+    display: none;
+  }
+
+  .textarea-wrapper {
+    margin-top: 5px;
   }
 }
