@@ -58,9 +58,11 @@
 }
 
 /* ESTRELAS */
-.stars {
+.feedback-stars {
   margin-top: 1rem;
   font-size: 1.1rem;
+  color: #ffc107;
+  text-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
 }
 
 /* USUÁRIO */

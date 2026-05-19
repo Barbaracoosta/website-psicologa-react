@@ -14,7 +14,7 @@ function Contact() {
         <span className="badge">Contato</span>
         <h1 className="title">Vamos Conversar?</h1>
         <p className="subtitle">
-          Atendimentos presenciais em Olinda/PE e on-line para todo o Brasil.
+          Atendimentos presenciais em Recife/PE e on-line para todo o Brasil.
         </p>
       </div>
 

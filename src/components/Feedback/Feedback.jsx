@@ -40,17 +40,15 @@ function Feedback() {
 
             <p className="text">{d.depoimento}</p>
 
-            <div className="stars">
-              {"⭐".repeat(d.nota)}
+            <div className="feedback-stars">
+              {"★".repeat(d.nota)}
             </div>
 
             <div className="user">
               <div className="avatar">
                 {inicial(d.nome)}
               </div>
-              <span className="name">
-                {inicial(d.nome)}.
-              </span>
+              
             </div>
           </div>
         ))}

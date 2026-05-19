@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { FaLock, FaRegStar } from "react-icons/fa";
 import { supabase } from "../../services/supabaseClient";
+import { HiOutlineUser, HiOutlineChatBubbleLeftRight } from "react-icons/hi2";
 import "./DepoimentoForm.css";
 
 function DepoimentoForm() {
@@ -20,7 +22,9 @@ function DepoimentoForm() {
     if (error) {
       alert("Erro ao enviar 😢");
     } else {
-      alert("Depoimento enviado para aprovação 💜");
+      alert(
+        "Depoimento enviado para aprovação! Obrigada por compartilhar sua experiência ",
+      );
       setForm({ nome: "", depoimento: "", nota: 5 });
     }
 
@@ -39,46 +43,71 @@ function DepoimentoForm() {
               também estão em busca de apoio.
             </p>
             <div className="info-box">
-              🔒 Seu depoimento é anônimo no site. Apenas a inicial será
+              <FaLock /> Seu depoimento é anônimo no site. Apenas a inicial será
               exibida.
             </div>
           </div>
         </div>
         <div className="left">
           <form className="form" onSubmit={enviar}>
-            <input
-              type="text"
-              placeholder="Seu nome"
-              value={form.nome}
-              onChange={(e) => setForm({ ...form, nome: e.target.value })}
-              required
-            />
+            <div className="input-group">
+              <HiOutlineUser className="icon" />
 
-            <textarea
-              placeholder="Escreva seu depoimento..."
-              value={form.depoimento}
-              maxLength={500}
-              onChange={(e) => setForm({ ...form, depoimento: e.target.value })}
-              required
-            />
-
-            <div className="stars">
-              {[1, 2, 3, 4, 5].map((n) => (
-                <span
-                  key={n}
-                  onClick={() => !loading && setForm({ ...form, nota: n })}
-                  className={form.nota >= n ? "active" : ""}
-                >
-                  ⭐
-                </span>
-              ))}
+              <input
+                type="text"
+                placeholder="Seu nome"
+                value={form.nome}
+                onChange={(e) => setForm({ ...form, nome: e.target.value })}
+                required
+              />
             </div>
 
-            <button disabled={loading}>
+            <div className="textarea-wrapper">
+              <HiOutlineChatBubbleLeftRight className="textarea-icon" />
+
+              <textarea
+                placeholder="Escreva seu depoimento..."
+                value={form.depoimento}
+                maxLength={500}
+                onChange={(e) =>
+                  setForm({ ...form, depoimento: e.target.value })
+                }
+                required
+              />
+            </div>
+
+            <div className="rating-wrapper">
+              <div className="input-group-no-border">
+                <FaRegStar className="icon" />
+
+                <input
+                  className="input-star"
+                  type="text"
+                  disabled="true"
+                  placeholder="Avalie meu trabalho"
+                />
+              </div>
+
+              <div className="stars">
+                {[1, 2, 3, 4, 5].map((n) => (
+                  <button
+                    type="button"
+                    key={n}
+                    disabled={loading}
+                    onClick={() => setForm({ ...form, nota: n })}
+                    className={`star ${form.nota >= n ? "active" : ""}`}
+                  >
+                    ★
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <button className="send-button" disabled={loading}>
               {loading ? "Enviando..." : "Enviar depoimento"}
             </button>
             <p className="disclaimer">
-              Seu depoimento será analisado antes de ser publicado.
+              🔒 Seu depoimento será analisado antes de ser publicado.
             </p>
           </form>
         </div>
