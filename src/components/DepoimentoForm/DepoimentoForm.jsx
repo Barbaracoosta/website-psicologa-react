@@ -43,8 +43,14 @@ function DepoimentoForm() {
               também estão em busca de apoio.
             </p>
             <div className="info-box">
-              <FaLock /> Seu depoimento é anônimo no site. Apenas a inicial será
-              exibida.
+              <div className="lock-icon">
+                <FaLock />
+              </div>
+
+              <div className="info-text">
+                <strong>Seu depoimento é anônimo no site.</strong>
+                <p>Apenas a inicial será exibida.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -106,7 +112,7 @@ function DepoimentoForm() {
             <button className="send-button" disabled={loading}>
               {loading ? "Enviando..." : "Enviar depoimento"}
             </button>
-            <p className="info-box">
+            <p className="info-block">
               <FaLock /> Seu depoimento será analisado antes de ser publicado.
             </p>
           </form>
