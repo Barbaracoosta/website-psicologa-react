@@ -35,6 +35,7 @@ function Header() {
           <li><a href="#about" onClick={() => setMenuOpen(false)}>Sobre</a></li>
           <li><a href="#benefits" onClick={() => setMenuOpen(false)}>Terapia</a></li>
           <li><a href="#mentalhealth" onClick={() => setMenuOpen(false)}>Saúde Mental</a></li>
+          <li><a href="#Feedback" onClick={() => setMenuOpen(false)}>Depoimentos</a></li>
           <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contato</a></li>
         </ul>
         <a

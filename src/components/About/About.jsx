@@ -6,7 +6,7 @@ function About() {
     <section id="about" className="about fade-in">
       <div className="headerBenefits">
         <span className="badge">Quem Sou</span>
-        <h1 className="title">Sobre mim</h1>
+        <h1 className="title">Sobre Mim</h1>
       </div>
 
       <div className="about-content">

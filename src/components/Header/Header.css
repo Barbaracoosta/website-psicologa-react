@@ -67,6 +67,9 @@
 .nav ul li:nth-child(5) a {
   color: #dfa0e7;
 }
+.nav ul li:nth-child(6) a {
+  color: #b8a0e7;
+}
 
 .nav ul li a:hover {
   transform: translateY(-2px);

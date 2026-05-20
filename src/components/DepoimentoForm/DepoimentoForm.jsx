@@ -37,7 +37,7 @@ function DepoimentoForm() {
         <div className="right">
           <div className="headerBenefits">
             <span className="badge">Compartilhe</span>
-            <h1 className="title">Deixe seu depoimento</h1>
+            <h1 className="title">Deixe Seu Depoimento</h1>
             <p className="subtitle">
               Sua opnião é muito importante e pode inspirar outras pessoas que
               também estão em busca de apoio.
@@ -106,8 +106,8 @@ function DepoimentoForm() {
             <button className="send-button" disabled={loading}>
               {loading ? "Enviando..." : "Enviar depoimento"}
             </button>
-            <p className="disclaimer">
-              🔒 Seu depoimento será analisado antes de ser publicado.
+            <p className="info-box">
+              <FaLock /> Seu depoimento será analisado antes de ser publicado.
             </p>
           </form>
         </div>

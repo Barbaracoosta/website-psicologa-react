@@ -22,13 +22,13 @@ function Feedback() {
   const inicial = (nome) => nome.charAt(0).toUpperCase();
 
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="Feedback">
 
        <div className="headerBenefits">
           <span className="badge">Depoimentos</span>
-          <h1 className="title">O que dizem sobre a terapia </h1>
+          <h1 className="title">Cada Jornada Importa </h1>
           <p className="subtitle">
-            Cada historia compartilhada me inspira a continuar cuidando com ainda mais amor e dedicação.
+            Historias de cuidado e transformação construidas com acolhimento e cuidado.
           </p>
      </div>
      

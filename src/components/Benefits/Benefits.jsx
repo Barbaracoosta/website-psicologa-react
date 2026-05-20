@@ -5,7 +5,7 @@ function Benefits() {
     <section id="benefits" className="benefits">
       <div className="headerBenefits">
         <span className="badge">Processo terapêutico</span>
-        <h1 className="title">Como funciona?</h1>
+        <h1 className="title">Como Funciona?</h1>
         <p className="subtitle">
           O processo terapêutico é estruturado e individualizado, respeitando as
           necessidades de cada criança, adolescente ou jovem adulto.
@@ -17,7 +17,7 @@ function Benefits() {
           <div className="step">
             <span className="number">01</span>
             <div className="content">
-              <h3>Avaliação inicial</h3>
+              <h3>Avaliação Inicial</h3>
               <p>
                 No início do acompanhamento, realizamos um mapeamento cuidadoso
                 das demandas apresentadas. Investigamos emoções, pensamentos,
@@ -29,7 +29,7 @@ function Benefits() {
           <div className="step">
             <span className="number">02</span>
             <div className="content">
-              <h3>Definição de objetivos terapêuticos</h3>
+              <h3>Definição de Objetivos Terapêuticos</h3>
               <p>
                 Após a avaliação, estabelecemos metas claras, realistas e
                 mensuráveis. Os objetivos são construídos de forma colaborativa
@@ -43,7 +43,7 @@ function Benefits() {
           <div className="step">
             <span className="number">03</span>
             <div className="content">
-              <h3>Técnicas baseadas em evidências</h3>
+              <h3>Técnicas Baseadas em Evidências</h3>
 
               <p>
                 Nesta etapa, utilizamos estratégias fundamentadas na Terapia
@@ -70,7 +70,7 @@ function Benefits() {
           <div className="step">
             <span className="number">04</span>
             <div className="content">
-              <h3>Desenvolvimento de autonomia</h3>
+              <h3>Desenvolvimento de Autonomia</h3>
               <p>
                 O objetivo final do acompanhamento é fortalecer recursos
                 internos, ampliar repertórios comportamentais e promover
@@ -84,7 +84,7 @@ function Benefits() {
         </div>
 
         <div className="section">
-          <h2>Abordagens utilizadas</h2>
+          <h2>Abordagens Utilizadas</h2>
           <div className="approach-grid">
             <div className="approach-card">
               <h3>Terapia Cognitivo-Comportamental (TCC)</h3>
@@ -107,7 +107,7 @@ function Benefits() {
             </div>
 
             <div className="approach-card">
-              <h3>Intervenção precoce na infância</h3>
+              <h3>Intervenção Precoce na Infância</h3>
               <p>
                 Atuação direcionada ao desenvolvimento global da criança, com
                 ênfase em linguagem, habilidades sociais, autorregulação e
@@ -116,7 +116,7 @@ function Benefits() {
             </div>
 
             <div className="approach-card">
-              <h3>Estratégias de comunicação e habilidades sociais</h3>
+              <h3>Estratégias de Comunicação e Habilidades Sociais</h3>
               <p>
                 Treinos estruturados para fortalecer a comunicação funcional, a
                 interação social e a regulação emocional, respeitando o ritmo e
@@ -127,7 +127,7 @@ function Benefits() {
         </div>
 
         <div className="section">
-          <h2>Benefícios do acompanhamento</h2>
+          <h2>Benefícios do Acompanhamento</h2>
           <div className="benefits-list">
             <div className="benefit-item"> ✔ Atendimento especializado</div>
             <div className="benefit-item"> ✔ Intervenções personalizadas</div>
