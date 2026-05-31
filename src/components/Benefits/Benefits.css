@@ -36,8 +36,8 @@
     var(--secondary-light) 100%
   );
   color: var(--cinza-texto);
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 0.7rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0.5rem 1rem;
