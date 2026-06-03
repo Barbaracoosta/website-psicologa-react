@@ -132,7 +132,7 @@ function Benefits() {
             <div className="benefit-item"> ✔ Atendimento especializado</div>
             <div className="benefit-item"> ✔ Intervenções personalizadas</div>
             <div className="benefit-item"> ✔ Acolhimento humanizado</div>
-            <div className="benefit-item"> ✔ Trabalho com a família</div>
+            <div className="benefit-item"> ✔ Orientação parental</div>
             <div className="benefit-item"> ✔ Experiência com TEA</div>
             <div className="benefit-item"> ✔ Planejamento estruturado</div>
             <div className="benefit-item"> ✔ Monitoramento contínuo</div>
